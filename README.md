@@ -1,9 +1,11 @@
 # learn-web3
 # 🚀 Web3.js Developer Roadmap: Beginner to Master
 
-[![Web3.js](https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=ethereum&logoColor=white)](https://web3js.readthedocs.io/)  
-[![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)](https://ethereum.org/)  
+
+[![Web3.js](https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=ethereum&logoColor=white)](https://web3js.readthedocs.io/)
+[![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)](https://ethereum.org/)
 [![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)](https://soliditylang.org/)
+
 
 A comprehensive roadmap to becoming a Web3.js developer, from basic blockchain interactions to building advanced decentralized applications.
 
