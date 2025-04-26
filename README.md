@@ -40,7 +40,6 @@ A comprehensive roadmap to becoming a Web3.js developer, from basic blockchain i
     ```javascript
     const Web3 = require('web3');
     const web3 = new Web3('https://mainnet.infura.io/v3/YOUR_PROJECT_ID');
-
     web3.eth.getBalance('0x...').then(console.log);
     ```
 
@@ -212,5 +211,25 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ---
 
+📈 API Project: Latest Crypto Price
+
+Let's build a simple Node.js API to fetch the latest price of cryptocurrencies!
+
+const axios = require('axios');
+
+async function getCryptoPrice(symbol = 'ETHUSDT') {
+  try {
+    const response = await axios.get(`https://api.binance.com/api/v3/ticker/price?symbol=${symbol}`);
+    console.log(`The current price of ${symbol} is $${response.data.price}`);
+  } catch (error) {
+    console.error('Error fetching crypto price:', error);
+  }
+}
+
+getCryptoPrice();
+
+✅ You can replace ETHUSDT with any other trading pair, e.g., BTCUSDT, BNBUSDT!
+
+Use this simple project to display real-time cryptocurrency prices inside your app!
 
 
